@@ -14,8 +14,11 @@ int main() {
     else if ( a >= 60 && a < 70) {
         printf("%d", D);
     }
-    else {
+    else if(a <60) {
     printf("%d", F);
+    }
+    else {
+        printf("%d", E);
     }
     return 0; 
 }
