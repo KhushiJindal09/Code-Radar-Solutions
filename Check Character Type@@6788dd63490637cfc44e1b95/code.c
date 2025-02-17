@@ -10,7 +10,7 @@ int main() {
             printf("Vowel");
         }
         else {
-            printf("Consonants");
+            printf("Consonant");
         }
     }
     else if (type >= '0' && type <= '9') {
