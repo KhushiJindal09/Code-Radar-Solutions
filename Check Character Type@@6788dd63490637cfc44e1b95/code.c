@@ -4,10 +4,10 @@ int main() {
     scanf("%d", &type);
     if (type >='a' && type <= 'z') {
         if (type == 'a' || type =='e' || type == 'i' || type == 'o' || type == 'u') {
-            printf("Vowels");
+            printf("Vowel");
         }
         else if(type == 'A' || type =='E' || type == 'I' || type == 'O' || type == 'U'){
-            printf("Vowels");
+            printf("Vowel");
         }
         else {
             printf("Consonants");
