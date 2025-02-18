@@ -18,8 +18,8 @@ int main() {
             printf("%d", a/b);
             else 
             printf("error");
-            break;
-            default: printf("Invalid");
+        break;
+        default: printf("Invalid");
     }
     return 0;
 }
