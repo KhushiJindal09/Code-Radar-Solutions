@@ -8,6 +8,7 @@ int main() {
         }
         printf("\n");
     }
+    int k=1;
     for(int k=0; k<=i; k++){
         printf("*");
     }
